@@ -1,5 +1,6 @@
 import pandas as pd
-from pandas_datareader import data, wb
+
+import pandas_datareader as data
 import datetime
 import numpy as np
 from scipy import sparse
@@ -38,3 +39,5 @@ X=data(900,open)
 y= target (900,open)
 
 X_train,X_test,y_train,y_test=train_test_split(X,y,random_state=0)
+#hello
+print("bonjour")
